@@ -1,0 +1,10 @@
+def morse_time(time_string):
+    return ".- .... : .-- .--- : -.. -..-"
+
+
+if __name__ == '__main__':
+    # These "asserts" using only for self-checking and not necessary for auto-testing
+    assert morse_time("10:37:49") == ".- .... : .-- .--- : -.. -..-", "First Test"
+    assert morse_time("21:34:56") == "-. ...- : .-- .-.. : -.- .--.", "Second Test"
+    assert morse_time("00:1:02") == ".. .... : ... ...- : ... ..-.", "Third Test"
+    assert morse_time("23:59:59") == "-. ..-- : -.- -..- : -.- -..-", "Fourth Test"
