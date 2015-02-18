@@ -1,6 +1,6 @@
-"I'm sending our time logs for the last expedition to headquarters, but it's not an easy task..."
-the pilot grumbled, "Can you imagine that with all the computer power at our disposal,
-I STILL have to convert this message to Morse-code with only an on/off button... Hrmph... what a pain."
+"I'm sending our time logs for the last expedition to HQ, but whith this equipment it's no easy task..."
+the pilot grumbled. "Can you imagine that with all the computer power at our disposal,
+I STILL have to convert this message to Morse-code using only an on/off button... Hrmph... what a colossal pain."
 
 You will create a module for converting a normal time string to a morse time string.
 As you can see in the illustration, a gray circle means on, while a white circle means off.
@@ -13,12 +13,12 @@ You will convert every on (or 1) signal to dash ("-") and every off (or 0) signa
 
 ![MorseClock](morse_clock.svg)
 
-An time string could be in the follow formats: _"hh:mm:ss"_, _"h:m:s"_ or _"hh:m:ss"_.
+A time string can be in any of the following formats: _"hh:mm:ss"_, _"h:m:s"_ or _"hh:m:ss"_.
 The "missing" digits are zeroes. For example, "1:2:3" is the same as "01:02:03".
 
 The result will be a morse time string with specific format:
 `h h : m m : s s`
-where each digits represented as sequence of "." and "-"
+where each digits is represented as sequence of "." and "-" (dots and dashes).
 
 **Input:** A normal time string as a string. 
 
@@ -35,11 +35,9 @@ morse_time("23:59:59") == "-. ..-- : -.- -..- : -.- -..-"
 
 **How it is used:**
 
-Did you see the binary clocks task earlier?
-This is can be a fun gift for any geek.
-We tried to combine the old good Morse code with a binary clock in this task,
-and now you can create the new more complex binary clock,
-which doesn't show time -- but makes morse style bips and beeps. ;-)
+Did you play the binary clocks mission earlier?
+This can be the basis for a fun gift for any geek.
+We've tried to combine the Morse code with a binary clock for this task and now you can create the new more complex binary clock, one which doesn't just tell time -- but makes morse style bips and beeps. ;-)   
 
 **Precondition:**
 
