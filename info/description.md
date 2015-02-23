@@ -9,9 +9,9 @@ You will convert every on (or 1) signal to dash ("-") and every off (or 0) signa
 
 ![MorseClock](morse_clock.svg)
 
-An time string could be in the follow formats: _"hh:mm:ss"_, _"h:m:s"_ or _"hh:m:ss"_.
+A time string can be in any of the following formats: _"hh:mm:ss"_, _"h:m:s"_ or _"hh:m:ss"_.
 The "missing" digits are zeroes. For example, "1:2:3" is the same as "01:02:03".
 
 The result will be a morse time string with specific format:
 `h h : m m : s s`
-where each digits represented as sequence of "." and "-"
+where each digits is represented as sequence of "." and "-" (dots and dashes).
