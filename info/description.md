@@ -13,5 +13,7 @@ A time string can be in any of the following formats: _"hh:mm:ss"_, _"h:m:s"_ or
 The "missing" digits are zeroes. For example, "1:2:3" is the same as "01:02:03".
 
 The result will be a morse time string with specific format:
+
 `h h : m m : s s`
+
 where each digits is represented as sequence of "." and "-" (dots and dashes).
