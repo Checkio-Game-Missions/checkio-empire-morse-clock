@@ -7,8 +7,6 @@ seconds have a length of 4.
 Every digit in the time is converted to binary representation.
 You will convert every on (or 1) signal to dash ("-") and every off (or 0) signal to dot (".").
 
-![MorseClock](morse_clock.svg)
-
 A time string can be in any of the following formats: _"hh:mm:ss"_, _"h:m:s"_ or _"hh:m:ss"_.
 The "missing" digits are zeroes. For example, "1:2:3" is the same as "01:02:03".
 
