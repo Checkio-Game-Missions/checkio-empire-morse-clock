@@ -1,0 +1,15 @@
+"use strict";
+
+function morseTime(timeString){
+    return ".- .... : .-- .--- : -.. -..-";
+}
+
+var assert = require("assert");
+
+if (!global.is_checking){
+    // These "asserts" using only for self-checking and not necessary for auto-testing
+    assert.equal(morseTime("10:37:49"), ".- .... : .-- .--- : -.. -..-", "First Test");
+    assert.equal(morseTime("21:34:56"), "-. ...- : .-- .-.. : -.- .--.", "Second Test");
+    assert.equal(morseTime("00:1:02"), ".. .... : ... ...- : ... ..-.", "Third Test");
+    assert.equal(morseTime("23:59:59"), "-. ..-- : -.- -..- : -.- -..-", "Fourth Test");
+}

@@ -1,3 +1,3 @@
 **Precondition:**
 
-_time_string_ contains correct time.
+`time string` contains correct time.
