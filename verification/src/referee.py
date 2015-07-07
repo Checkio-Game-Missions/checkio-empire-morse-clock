@@ -12,5 +12,5 @@ class Referee(RefereeBase):
 
     DEFAULT_FUNCTION_NAME = "morse_time"
     FUNCTION_NAMES = {
-        ENV_NAME.JS_NODE: "morseClock"
+        ENV_NAME.JS_NODE: "morseTime"
     }
