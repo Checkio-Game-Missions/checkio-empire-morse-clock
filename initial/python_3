@@ -8,3 +8,5 @@ if __name__ == '__main__':
     assert morse_time("21:34:56") == "-. ...- : .-- .-.. : -.- .--.", "Second Test"
     assert morse_time("00:1:02") == ".. .... : ... ...- : ... ..-.", "Third Test"
     assert morse_time("23:59:59") == "-. ..-- : -.- -..- : -.- -..-", "Fourth Test"
+
+    print("Coding complete? Click 'Check' to review your tests and earn cool rewards!")
