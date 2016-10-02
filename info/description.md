@@ -15,4 +15,4 @@ The result will be a morse time string with specific format:
 `h h : m m : s s`
 
 where each digits is represented as sequence of "." and "-" (dots and dashes).
-![Morse clock](morse_clock.svg)
+![Morse clock](../media/morse_clock.svg)
